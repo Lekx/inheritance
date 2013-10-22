@@ -10,8 +10,16 @@ namespace inheritance
     {
         static void Main(string[] args)
         {
+            life life = new life();
+            life.newBorn();
 
-            
+            characteristics characteristics = new characteristics();
+            characteristics.addReligion();
+            Console.Clear();
+            characteristics.newBeing();
+
+            Console.ReadKey();
+
 
         }
     }
